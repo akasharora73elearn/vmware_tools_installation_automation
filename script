@@ -5,5 +5,5 @@ cd /tmp/vmware-tools-distrib/
 ./vmware-install.pl -f -default
 cd
 /usr/bin/vmware-user
-#sudo shutdown -r now
+#sudo shutdown -r +1 'System going down in a minute'
 #sudo shutdown -P +1 'System going down in a minute'
