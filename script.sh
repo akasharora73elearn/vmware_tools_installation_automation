@@ -1,5 +1,5 @@
 sudo echo "installing vmware tools"
-cd /media/$USER/
+cd /media/`logname`/
 a='';b=' '; for i in `ls | grep V*` ; do a=$a$i$b; done; a=${a%?};cd "$a";
 for i in `ls | grep *.tar.gz`; do sudo tar zxvf $i -C /tmp/; done
 cd /tmp/vmware-tools-distrib/
